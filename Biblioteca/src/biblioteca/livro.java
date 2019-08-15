@@ -57,8 +57,12 @@ public class livro {
         System.out.println("QTDpaginas:");
         System.out.println("Editora:");
         System.out.println("Valor:");
-        return this.exibir();
+        return this.exibir();      
+    }
+    
+    public Double Venda(int quantidade){
         
+        return valor*quantidade; 
     }
     
     
